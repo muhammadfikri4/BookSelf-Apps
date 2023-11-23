@@ -1,0 +1,101 @@
+body {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form-new-book, #complete-list, #uncomplete-list {
+    border: 1px solid black;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+#form-new-book h1 {
+    text-align: center;
+    color: #00df25;
+}
+
+
+.form-element input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.check {
+    display: flex;
+}
+.check label {
+    font-weight: bold;
+    color: #00df25;
+}
+.form-element label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00df25;
+}
+
+.form-element button {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 3px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00df25;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.form-element {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#complete-list h1, #uncomplete-list h1 {
+    text-align: center;
+}
+
+.item-uncomplete {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.item-uncomplete h3 {
+    text-align: left;
+}
+
+.selesai {
+    padding: 10px 15px;
+    background-color: #008cff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.belum-selesai {
+    padding: 10px 15px;
+    background-color: #008cff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.hapus {
+    padding: 10px 15px;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+}
